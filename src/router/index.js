@@ -19,6 +19,13 @@ const constantRoutes = [
     hidden: true,
   },
   {
+    path: '/remote/:id',
+    name: 'Remote',
+    meta: { title: 'RemoteControl' },
+    component: () => import('@/views/remote/index.vue'),
+    hidden: true,
+  },
+  {
     path: '/oauth/:code',
     meta: { title: 'OauthLogin' },
     component: () => import('@/views/oauth/login.vue'),
@@ -60,6 +67,12 @@ export const asyncRoutes = [
         name: 'MyInfo',
         meta: { title: 'Userinfo', icon: 'User' /*keepAlive: true*/ },
         component: () => import('@/views/my/info.vue'),
+      },
+      {
+        path: 'webclient',
+        name: 'MyWebClient',
+        meta: { title: 'WebClient', icon: 'Position' },
+        component: () => import('@/views/remote/connect.vue'),
       },
       {
         path: 'peer',

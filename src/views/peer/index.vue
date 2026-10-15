@@ -103,6 +103,7 @@
         <el-table-column :label="T('Actions')" align="center" width="500" class-name="table-actions" fixed="right">
           <template #default="{row}">
             <el-button type="success" @click="connectByClient(row.id)">{{ T('Link') }}</el-button>
+            <el-button v-if="appStore.setting.appConfig.web_client === 1" type="success" plain @click="connectByWeb(row.id)">{{ T('WebClientConnect') }}</el-button>
             <el-button type="primary" @click="toAddressBook(row)">{{ T('AddToAddressBook') }}</el-button>
             <el-button @click="toEdit(row)">{{ T('Edit') }}</el-button>
             <el-button type="danger" @click="del(row)">{{ T('Delete') }}</el-button>
@@ -238,7 +239,7 @@
   import { jsonToCsv, downBlob } from '@/utils/file'
   import { loadAllUsers } from '@/global'
   import { useAppStore } from '@/store/app'
-  import { connectByClient } from '@/utils/peer'
+  import { connectByClient, connectByWeb } from '@/utils/peer'
   import { ArrowDown, ArrowUp, CopyDocument, Setting } from '@element-plus/icons'
   import { handleClipboard } from '@/utils/clipboard'
   import { batchCreateFromPeers } from '@/api/address_book'

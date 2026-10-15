@@ -603,5 +603,428 @@
   },
   "or login in with": {
     "One": "oder anmelden mit"
+  },
+  "WebClient": {
+    "One": "Web-Client"
+  },
+  "WebClientConnect": {
+    "One": "Web"
+  },
+  "RemoteControl": {
+    "One": "Fernsteuerung"
+  },
+  "RemoteConnectHint": {
+    "One": "Gerät direkt im Browser fernsteuern. Dafür brauchst du das Passwort des Geräts oder jemanden am Gerät, der die Verbindung annimmt."
+  },
+  "RemoteDeviceId": {
+    "One": "Geräte-ID"
+  },
+  "RemoteDisabled": {
+    "One": "Der Web-Client ist auf diesem Server abgeschaltet (RUSTDESK_API_APP_WEB_CLIENT)."
+  },
+  "RemoteConnect": {
+    "One": "Verbinden"
+  },
+  "RemoteDisplay": {
+    "One": "Bildschirm"
+  },
+  "RemoteOriginalSize": {
+    "One": "Originalgröße"
+  },
+  "RemoteFitWindow": {
+    "One": "An Fenster anpassen"
+  },
+  "RemoteQualityBest": {
+    "One": "Gute Bildqualität"
+  },
+  "RemoteQualityBalanced": {
+    "One": "Ausgewogen"
+  },
+  "RemoteQualityLow": {
+    "One": "Reaktionszeit optimieren"
+  },
+  "RemoteActions": {
+    "One": "Aktionen"
+  },
+  "RemoteCtrlAltDel": {
+    "One": "Strg+Alt+Entf senden"
+  },
+  "RemoteLockScreen": {
+    "One": "Bildschirm sperren"
+  },
+  "RemoteTypeText": {
+    "One": "Text eingeben lassen"
+  },
+  "RemoteTypeTextHint": {
+    "One": "Dieser Text wird auf dem Gerät eingetippt, z. B. ein langes Passwort."
+  },
+  "RemoteSend": {
+    "One": "Senden"
+  },
+  "RemoteRefresh": {
+    "One": "Bild neu laden"
+  },
+  "RemoteIsoMac": {
+    "One": "Mac-ISO-Tastatur (^ und < tauschen)"
+  },
+  "RemoteFullscreen": {
+    "One": "Vollbild"
+  },
+  "RemoteDisconnect": {
+    "One": "Trennen"
+  },
+  "RemoteHideBar": {
+    "One": "Leiste ausblenden"
+  },
+  "RemoteConnecting": {
+    "One": "Verbinde…"
+  },
+  "RemoteLoggingIn": {
+    "One": "Melde an…"
+  },
+  "RemoteWaitingForAccept": {
+    "One": "Warte, bis die Verbindung am Gerät angenommen wird…"
+  },
+  "RemoteWaitingForImage": {
+    "One": "Warte auf das Bild…"
+  },
+  "RemotePasswordFor": {
+    "One": "Passwort des Geräts {id}"
+  },
+  "RemoteUseSavedPassword": {
+    "One": "Gespeichertes Passwort"
+  },
+  "RemoteRequestAccess": {
+    "One": "Zugriff anfragen"
+  },
+  "Remote2faCode": {
+    "One": "Zwei-Faktor-Code des Geräts"
+  },
+  "RemoteWrongPassword": {
+    "One": "Falsches Passwort."
+  },
+  "RemoteWrong2fa": {
+    "One": "Falscher Code."
+  },
+  "RemoteNoPasswordAccess": {
+    "One": "Dieses Gerät erlaubt keine Anmeldung per Passwort. Frage stattdessen den Zugriff an."
+  },
+  "RemoteConnectionFailed": {
+    "One": "Verbindung fehlgeschlagen"
+  },
+  "RemoteConnectionClosed": {
+    "One": "Verbindung beendet"
+  },
+  "RemoteReconnect": {
+    "One": "Erneut verbinden"
+  },
+  "RemoteClosedByYou": {
+    "One": "Du hast die Sitzung beendet."
+  },
+  "RemoteClosedByPeer": {
+    "One": "Das Gerät hat die Sitzung beendet."
+  },
+  "RemoteClosedRelay": {
+    "One": "Die Verbindung ist abgebrochen."
+  },
+  "RemoteClosedTimeout": {
+    "One": "Das Gerät antwortet nicht mehr."
+  },
+  "RemoteClosedCorrupt": {
+    "One": "Beschädigte Daten empfangen, die Verbindung wurde zur Sicherheit getrennt."
+  },
+  "RemoteErrProxy": {
+    "One": "Die Web-Client-Verbindung des Servers ist nicht erreichbar."
+  },
+  "RemoteErrNoKey": {
+    "One": "Auf dem Server ist kein gültiger Schlüssel eingerichtet (rustdesk.key bzw. Schlüsseldatei)."
+  },
+  "RemoteErrRefused": {
+    "One": "Das Gerät hat die Verbindung abgelehnt."
+  },
+  "RemoteErrInsecure": {
+    "One": "Die Verbindung ließ sich nicht absichern und wurde deshalb nicht aufgebaut."
+  },
+  "RemoteErrServerSignature": {
+    "One": "Der Schlüssel des Geräts ist nicht von diesem Server bestätigt."
+  },
+  "RemoteErrPeerSignature": {
+    "One": "Das Gerät konnte seine Identität nicht nachweisen."
+  },
+  "RemoteErrNoAnswer": {
+    "One": "Das Gerät hat nicht geantwortet."
+  },
+  "RemoteErrServerClosed": {
+    "One": "Der Server hat die Verbindung beendet."
+  },
+  "RemoteErrServer": {
+    "One": "Fehler"
+  },
+  "RemoteErrOffline": {
+    "One": "Das Gerät ist offline."
+  },
+  "RemoteErrKeyMismatch": {
+    "One": "Der Server-Schlüssel passt nicht."
+  },
+  "RemoteErrIdNotExist": {
+    "One": "Diese ID gibt es nicht."
+  },
+  "RemoteErrRelay": {
+    "One": "Die Relay-Verbindung ist fehlgeschlagen."
+  },
+  "RemoteErrHandshake": {
+    "One": "Der Verbindungsaufbau ist fehlgeschlagen."
+  },
+  "RemoteErrLogin": {
+    "One": "Anmeldung abgelehnt"
+  },
+  "RemoteErrBrowser": {
+    "One": "Dieser Browser kann das Bild nicht dekodieren (WebCodecs fehlt). Bitte einen aktuellen Chrome, Edge, Firefox oder Safari verwenden."
+  },
+  "RemoteAllDisplays": {
+    "One": "Alle Bildschirme"
+  },
+  "RemoteAudioUnsupported": {
+    "One": "Dieser Browser kann den Ton der Sitzung nicht abspielen."
+  },
+  "RemoteBlockInput": {
+    "One": "Benutzereingaben sperren"
+  },
+  "RemoteUnblockInput": {
+    "One": "Benutzereingaben freigeben"
+  },
+  "RemoteBlockInputFailed": {
+    "One": "Sperren bzw. Freigeben der Eingaben ist fehlgeschlagen."
+  },
+  "RemoteChatEmpty": {
+    "One": "Noch keine Nachrichten."
+  },
+  "RemoteChatPlaceholder": {
+    "One": "Nachricht (Enter sendet)"
+  },
+  "RemoteClipboardDenied": {
+    "One": "Der Browser erlaubt das Lesen der Zwischenablage nicht."
+  },
+  "RemoteClipboardNeedsHttps": {
+    "One": "Die Zwischenablage funktioniert nur über HTTPS."
+  },
+  "RemoteCodec": {
+    "One": "Codec"
+  },
+  "RemoteCodecAuto": {
+    "One": "Automatisch"
+  },
+  "RemoteControlActions": {
+    "One": "Steuerung"
+  },
+  "RemoteCustomResolution": {
+    "One": "Eigene Auflösung"
+  },
+  "RemoteDisableClipboard": {
+    "One": "Zwischenablage deaktivieren"
+  },
+  "RemoteDisplaySettings": {
+    "One": "Anzeige"
+  },
+  "RemoteElevateDirect": {
+    "One": "Person am Gerät bestätigen lassen (UAC)"
+  },
+  "RemoteElevateLogon": {
+    "One": "Als Administrator anmelden"
+  },
+  "RemoteElevatedWindow": {
+    "One": "Das Fenster im Vordergrund läuft mit Administratorrechten. Rechte anfordern, um es zu bedienen."
+  },
+  "RemoteElevationSent": {
+    "One": "Rechte angefordert."
+  },
+  "RemoteExitFullscreen": {
+    "One": "Vollbild beenden"
+  },
+  "RemoteFollowCursor": {
+    "One": "Fern-Cursor folgen"
+  },
+  "RemoteFollowWindow": {
+    "One": "Fenster-Fokus folgen"
+  },
+  "RemoteKbMode": {
+    "One": "Tastaturmodus"
+  },
+  "RemoteKbMap": {
+    "One": "1:1 (Map-Modus)"
+  },
+  "RemoteKbTranslate": {
+    "One": "Übersetzen (Translate-Modus)"
+  },
+  "RemoteKbLegacy": {
+    "One": "Legacy-Modus"
+  },
+  "RemoteKeyboardSettings": {
+    "One": "Tastatur"
+  },
+  "RemoteLockAfterEnd": {
+    "One": "Nach Sitzungsende sperren"
+  },
+  "RemoteMute": {
+    "One": "Stummschalten"
+  },
+  "RemoteOsPassword": {
+    "One": "Betriebssystem-Passwort"
+  },
+  "RemoteOsPasswordHint": {
+    "One": "Wird in den Anmelde- oder Sperrbildschirm des Geräts eingetippt, danach Enter."
+  },
+  "RemotePinToolbar": {
+    "One": "Leiste anheften"
+  },
+  "RemoteUnpinToolbar": {
+    "One": "Leiste lösen"
+  },
+  "RemotePlugOutAll": {
+    "One": "Alle entfernen"
+  },
+  "RemotePrivacyMode": {
+    "One": "Datenschutzmodus"
+  },
+  "RemotePrivacyMode1": {
+    "One": "Datenschutzmodus 1"
+  },
+  "RemotePrivacyMode2": {
+    "One": "Datenschutzmodus 2 (virtuelle Anzeige)"
+  },
+  "RemotePrivacyOn": {
+    "One": "Datenschutzmodus ist an."
+  },
+  "RemotePrivacyOff": {
+    "One": "Datenschutzmodus ist aus."
+  },
+  "RemotePrivacyByOther": {
+    "One": "Der Datenschutzmodus wird von einer anderen Verbindung genutzt."
+  },
+  "RemotePrivacyNotSupported": {
+    "One": "Das Gerät unterstützt den Datenschutzmodus nicht."
+  },
+  "RemotePrivacyFailed": {
+    "One": "Der Datenschutzmodus ließ sich nicht umschalten."
+  },
+  "RemoteQmSpeed": {
+    "One": "Geschwindigkeit"
+  },
+  "RemoteQmDelay": {
+    "One": "Verzögerung"
+  },
+  "RemoteQmTarget": {
+    "One": "Ziel-Bitrate"
+  },
+  "RemoteQmChroma": {
+    "One": "Farbabtastung"
+  },
+  "RemoteQualityBitrate": {
+    "One": "Qualität"
+  },
+  "RemoteQualityCustom": {
+    "One": "Benutzerdefiniert"
+  },
+  "RemoteQualityMonitor": {
+    "One": "Qualitätsmonitor anzeigen"
+  },
+  "RemoteRecordUnsupported": {
+    "One": "Dieser Browser kann die Sitzung nicht aufnehmen."
+  },
+  "RemoteRelativeMouse": {
+    "One": "Relativer Mausmodus"
+  },
+  "RemoteRelativeMouseHint": {
+    "One": "Relativer Mausmodus: Esc gibt die Maus wieder frei."
+  },
+  "RemoteRelativeMouseFailed": {
+    "One": "Der Browser hat das Einfangen der Maus abgelehnt."
+  },
+  "RemoteRequestElevation": {
+    "One": "Rechte anfordern"
+  },
+  "RemoteResolution": {
+    "One": "Auflösung"
+  },
+  "RemoteResOriginal": {
+    "One": "Original"
+  },
+  "RemoteResFitLocal": {
+    "One": "An dieses Fenster anpassen"
+  },
+  "RemoteRestart": {
+    "One": "Gerät neu starten"
+  },
+  "RemoteRestartConfirm": {
+    "One": "{name} wirklich neu starten?"
+  },
+  "RemoteReverseWheel": {
+    "One": "Mausrad umkehren"
+  },
+  "RemoteScale": {
+    "One": "Skalierung"
+  },
+  "RemoteScaleOriginal": {
+    "One": "Originalgröße"
+  },
+  "RemoteScaleAdaptive": {
+    "One": "An Fenster anpassen"
+  },
+  "RemoteScaleCustom": {
+    "One": "Eigene Skalierung"
+  },
+  "RemoteScreenshot": {
+    "One": "Bildschirmfoto speichern"
+  },
+  "RemoteScrollAuto": {
+    "One": "Automatisch mitscrollen"
+  },
+  "RemoteScrollbar": {
+    "One": "Bildlaufleisten"
+  },
+  "RemoteSendClipboardKeys": {
+    "One": "Zwischenablage als Tastendrücke senden"
+  },
+  "RemoteShowRemoteCursor": {
+    "One": "Fern-Cursor anzeigen"
+  },
+  "RemoteStartRecording": {
+    "One": "Aufnahme starten"
+  },
+  "RemoteStopRecording": {
+    "One": "Aufnahme beenden"
+  },
+  "RemoteSwapCtrlCmd": {
+    "One": "Strg- und Cmd-Taste tauschen"
+  },
+  "RemoteSwapMouse": {
+    "One": "Linke und rechte Maustaste tauschen"
+  },
+  "RemoteTextChat": {
+    "One": "Text-Chat"
+  },
+  "RemoteToolbarHandle": {
+    "One": "Ziehen zum Verschieben, Klicken zum Ein-/Ausklappen"
+  },
+  "RemoteTrueColor": {
+    "One": "Echtfarben (4:4:4)"
+  },
+  "RemoteUacShown": {
+    "One": "Auf dem Gerät ist eine Benutzerkontensteuerung (UAC) offen."
+  },
+  "RemoteViewMode": {
+    "One": "Nur ansehen"
+  },
+  "RemoteVirtualDisplay": {
+    "One": "Virtuelle Anzeige"
+  },
+  "RemoteVirtualAdd": {
+    "One": "Virtuelle Anzeige hinzufügen"
+  },
+  "RemoteVirtualRemove": {
+    "One": "Virtuelle Anzeige entfernen"
+  },
+  "RemoteZoomCursor": {
+    "One": "Cursor mitskalieren"
   }
 }

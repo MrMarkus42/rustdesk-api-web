@@ -49,6 +49,12 @@ const conf = {
               case 'element-plus':
               case '@element-plus':
                 return '_' + arr[0]
+              // only needed by the web client page, loaded with it
+              case '@bufbuild':
+              case '@noble':
+              case 'tweetnacl':
+              case 'fzstd':
+                return '_remote'
               default :
                 return '__vendor'
             }

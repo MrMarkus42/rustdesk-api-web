@@ -56,6 +56,7 @@
         <el-table-column :label="T('Actions')" align="center" class-name="table-actions" width="600" fixed="right">
           <template #default="{row}">
             <el-button type="success" @click="connectByClient(row.id)">{{ T('Link') }}</el-button>
+            <el-button v-if="appStore.setting.appConfig.web_client === 1" type="success" plain @click="connectByWeb(row.id)">{{ T('WebClientConnect') }}</el-button>
             <el-button @click="toEdit(row)">{{ T('Edit') }}</el-button>
             <el-button type="danger" @click="del(row)">{{ T('Delete') }}</el-button>
           </template>
@@ -170,7 +171,7 @@
   import { useBatchUpdateTagsRepositories, useRepositories } from '@/views/address_book'
   import { T } from '@/utils/i18n'
   import { useAppStore } from '@/store/app'
-  import { connectByClient } from '@/utils/peer'
+  import { connectByClient, connectByWeb } from '@/utils/peer'
   import { handleClipboard } from '@/utils/clipboard'
   import { CopyDocument } from '@element-plus/icons'
   import PlatformIcons from '@/components/icons/platform.vue'

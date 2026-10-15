@@ -69,6 +69,7 @@
         <el-table-column :label="T('Actions')" align="center" class-name="table-actions" width="500" fixed="right">
           <template #default="{row}">
             <el-button type="success" @click="connectByClient(row.id)">{{ T('Link') }}</el-button>
+            <el-button v-if="appStore.setting.appConfig.web_client === 1" type="success" plain @click="connectByWeb(row.id)">{{ T('WebClientConnect') }}</el-button>
             <el-button @click="toEdit(row)">{{ T('Edit') }}</el-button>
             <el-button type="danger" @click="del(row)">{{ T('Delete') }}</el-button>
           </template>
@@ -174,7 +175,7 @@
   import { useRepositories } from '@/views/address_book/index'
   import { T } from '@/utils/i18n'
   import { useRoute } from 'vue-router'
-  import { connectByClient } from '@/utils/peer'
+  import { connectByClient, connectByWeb } from '@/utils/peer'
   import { useAppStore } from '@/store/app'
   import { handleClipboard } from '@/utils/clipboard'
   import { CopyDocument } from '@element-plus/icons'

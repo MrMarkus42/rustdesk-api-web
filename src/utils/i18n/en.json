@@ -603,5 +603,428 @@
   },
   "or login in with": {
     "One": "or log in with"
+  },
+  "WebClient": {
+    "One": "Web client"
+  },
+  "WebClientConnect": {
+    "One": "Web"
+  },
+  "RemoteControl": {
+    "One": "Remote control"
+  },
+  "RemoteConnectHint": {
+    "One": "Connect to a device in this browser. You need the device password or someone at the device who accepts the connection."
+  },
+  "RemoteDeviceId": {
+    "One": "Device ID"
+  },
+  "RemoteDisabled": {
+    "One": "The web client is turned off on this server (RUSTDESK_API_APP_WEB_CLIENT)."
+  },
+  "RemoteConnect": {
+    "One": "Connect"
+  },
+  "RemoteDisplay": {
+    "One": "Screen"
+  },
+  "RemoteOriginalSize": {
+    "One": "Original size"
+  },
+  "RemoteFitWindow": {
+    "One": "Fit to window"
+  },
+  "RemoteQualityBest": {
+    "One": "Good image quality"
+  },
+  "RemoteQualityBalanced": {
+    "One": "Balanced"
+  },
+  "RemoteQualityLow": {
+    "One": "Optimize reaction time"
+  },
+  "RemoteActions": {
+    "One": "Actions"
+  },
+  "RemoteCtrlAltDel": {
+    "One": "Send Ctrl+Alt+Del"
+  },
+  "RemoteLockScreen": {
+    "One": "Lock screen"
+  },
+  "RemoteTypeText": {
+    "One": "Type text"
+  },
+  "RemoteTypeTextHint": {
+    "One": "This text is typed on the remote device, e.g. a long password."
+  },
+  "RemoteSend": {
+    "One": "Send"
+  },
+  "RemoteRefresh": {
+    "One": "Refresh picture"
+  },
+  "RemoteIsoMac": {
+    "One": "Mac ISO keyboard (swap ^ and <)"
+  },
+  "RemoteFullscreen": {
+    "One": "Full screen"
+  },
+  "RemoteDisconnect": {
+    "One": "Disconnect"
+  },
+  "RemoteHideBar": {
+    "One": "Hide toolbar"
+  },
+  "RemoteConnecting": {
+    "One": "Connecting…"
+  },
+  "RemoteLoggingIn": {
+    "One": "Logging in…"
+  },
+  "RemoteWaitingForAccept": {
+    "One": "Waiting for the person at the device to accept…"
+  },
+  "RemoteWaitingForImage": {
+    "One": "Waiting for the picture…"
+  },
+  "RemotePasswordFor": {
+    "One": "Password of device {id}"
+  },
+  "RemoteUseSavedPassword": {
+    "One": "Use saved password"
+  },
+  "RemoteRequestAccess": {
+    "One": "Ask for access"
+  },
+  "Remote2faCode": {
+    "One": "Two-factor code of the device"
+  },
+  "RemoteWrongPassword": {
+    "One": "Wrong password."
+  },
+  "RemoteWrong2fa": {
+    "One": "Wrong code."
+  },
+  "RemoteNoPasswordAccess": {
+    "One": "This device does not accept passwords; ask for access instead."
+  },
+  "RemoteConnectionFailed": {
+    "One": "Connection failed"
+  },
+  "RemoteConnectionClosed": {
+    "One": "Connection closed"
+  },
+  "RemoteReconnect": {
+    "One": "Connect again"
+  },
+  "RemoteClosedByYou": {
+    "One": "You ended the session."
+  },
+  "RemoteClosedByPeer": {
+    "One": "The device ended the session."
+  },
+  "RemoteClosedRelay": {
+    "One": "The connection was lost."
+  },
+  "RemoteClosedTimeout": {
+    "One": "The device stopped answering."
+  },
+  "RemoteClosedCorrupt": {
+    "One": "Received damaged data; the connection was closed for safety."
+  },
+  "RemoteErrProxy": {
+    "One": "The server's web client connection is not reachable."
+  },
+  "RemoteErrNoKey": {
+    "One": "The server has no valid key configured (rustdesk.key / key file)."
+  },
+  "RemoteErrRefused": {
+    "One": "The device refused the connection."
+  },
+  "RemoteErrInsecure": {
+    "One": "The connection could not be secured, so it was not opened."
+  },
+  "RemoteErrServerSignature": {
+    "One": "The device key is not signed by this server."
+  },
+  "RemoteErrPeerSignature": {
+    "One": "The device could not prove its identity."
+  },
+  "RemoteErrNoAnswer": {
+    "One": "The device did not answer."
+  },
+  "RemoteErrServerClosed": {
+    "One": "The server closed the connection."
+  },
+  "RemoteErrServer": {
+    "One": "Error"
+  },
+  "RemoteErrOffline": {
+    "One": "The device is offline."
+  },
+  "RemoteErrKeyMismatch": {
+    "One": "The server key does not match."
+  },
+  "RemoteErrIdNotExist": {
+    "One": "This ID does not exist."
+  },
+  "RemoteErrRelay": {
+    "One": "The relay connection failed."
+  },
+  "RemoteErrHandshake": {
+    "One": "The connection setup failed."
+  },
+  "RemoteErrLogin": {
+    "One": "Login refused"
+  },
+  "RemoteErrBrowser": {
+    "One": "This browser cannot decode the video (WebCodecs missing). Use a current Chrome, Edge, Firefox or Safari."
+  },
+  "RemoteAllDisplays": {
+    "One": "All screens"
+  },
+  "RemoteAudioUnsupported": {
+    "One": "This browser cannot play the sound of the session."
+  },
+  "RemoteBlockInput": {
+    "One": "Block user input"
+  },
+  "RemoteUnblockInput": {
+    "One": "Unblock user input"
+  },
+  "RemoteBlockInputFailed": {
+    "One": "Blocking or unblocking the input failed."
+  },
+  "RemoteChatEmpty": {
+    "One": "No messages yet."
+  },
+  "RemoteChatPlaceholder": {
+    "One": "Message (Enter sends)"
+  },
+  "RemoteClipboardDenied": {
+    "One": "The browser does not allow reading the clipboard."
+  },
+  "RemoteClipboardNeedsHttps": {
+    "One": "The clipboard only works over HTTPS."
+  },
+  "RemoteCodec": {
+    "One": "Codec"
+  },
+  "RemoteCodecAuto": {
+    "One": "Auto"
+  },
+  "RemoteControlActions": {
+    "One": "Control actions"
+  },
+  "RemoteCustomResolution": {
+    "One": "Custom resolution"
+  },
+  "RemoteDisableClipboard": {
+    "One": "Disable clipboard"
+  },
+  "RemoteDisplaySettings": {
+    "One": "Display"
+  },
+  "RemoteElevateDirect": {
+    "One": "Ask the person at the device to confirm (UAC)"
+  },
+  "RemoteElevateLogon": {
+    "One": "Log in as administrator"
+  },
+  "RemoteElevatedWindow": {
+    "One": "The window in front runs with administrator rights; request elevation to control it."
+  },
+  "RemoteElevationSent": {
+    "One": "Elevation requested."
+  },
+  "RemoteExitFullscreen": {
+    "One": "Exit full screen"
+  },
+  "RemoteFollowCursor": {
+    "One": "Follow remote cursor"
+  },
+  "RemoteFollowWindow": {
+    "One": "Follow remote window focus"
+  },
+  "RemoteKbMode": {
+    "One": "Keyboard mode"
+  },
+  "RemoteKbMap": {
+    "One": "1:1 (map mode)"
+  },
+  "RemoteKbTranslate": {
+    "One": "Translate mode"
+  },
+  "RemoteKbLegacy": {
+    "One": "Legacy mode"
+  },
+  "RemoteKeyboardSettings": {
+    "One": "Keyboard"
+  },
+  "RemoteLockAfterEnd": {
+    "One": "Lock after session end"
+  },
+  "RemoteMute": {
+    "One": "Mute"
+  },
+  "RemoteOsPassword": {
+    "One": "OS password"
+  },
+  "RemoteOsPasswordHint": {
+    "One": "Typed into the login or lock screen of the device, followed by Enter."
+  },
+  "RemotePinToolbar": {
+    "One": "Pin toolbar"
+  },
+  "RemoteUnpinToolbar": {
+    "One": "Unpin toolbar"
+  },
+  "RemotePlugOutAll": {
+    "One": "Plug out all"
+  },
+  "RemotePrivacyMode": {
+    "One": "Privacy mode"
+  },
+  "RemotePrivacyMode1": {
+    "One": "Privacy mode 1"
+  },
+  "RemotePrivacyMode2": {
+    "One": "Privacy mode 2 (virtual display)"
+  },
+  "RemotePrivacyOn": {
+    "One": "Privacy mode is on."
+  },
+  "RemotePrivacyOff": {
+    "One": "Privacy mode is off."
+  },
+  "RemotePrivacyByOther": {
+    "One": "Privacy mode is used by another connection."
+  },
+  "RemotePrivacyNotSupported": {
+    "One": "The device does not support privacy mode."
+  },
+  "RemotePrivacyFailed": {
+    "One": "Privacy mode could not be switched."
+  },
+  "RemoteQmSpeed": {
+    "One": "Speed"
+  },
+  "RemoteQmDelay": {
+    "One": "Delay"
+  },
+  "RemoteQmTarget": {
+    "One": "Target bitrate"
+  },
+  "RemoteQmChroma": {
+    "One": "Chroma"
+  },
+  "RemoteQualityBitrate": {
+    "One": "Quality"
+  },
+  "RemoteQualityCustom": {
+    "One": "Custom"
+  },
+  "RemoteQualityMonitor": {
+    "One": "Show quality monitor"
+  },
+  "RemoteRecordUnsupported": {
+    "One": "This browser cannot record the session."
+  },
+  "RemoteRelativeMouse": {
+    "One": "Relative mouse mode"
+  },
+  "RemoteRelativeMouseHint": {
+    "One": "Relative mouse mode: press Esc to release the mouse."
+  },
+  "RemoteRelativeMouseFailed": {
+    "One": "The browser refused to capture the mouse."
+  },
+  "RemoteRequestElevation": {
+    "One": "Request elevation"
+  },
+  "RemoteResolution": {
+    "One": "Resolution"
+  },
+  "RemoteResOriginal": {
+    "One": "Original"
+  },
+  "RemoteResFitLocal": {
+    "One": "Fit this window"
+  },
+  "RemoteRestart": {
+    "One": "Restart remote device"
+  },
+  "RemoteRestartConfirm": {
+    "One": "Really restart {name}?"
+  },
+  "RemoteReverseWheel": {
+    "One": "Reverse mouse wheel"
+  },
+  "RemoteScale": {
+    "One": "Scale"
+  },
+  "RemoteScaleOriginal": {
+    "One": "Scale original"
+  },
+  "RemoteScaleAdaptive": {
+    "One": "Scale adaptive"
+  },
+  "RemoteScaleCustom": {
+    "One": "Scale custom"
+  },
+  "RemoteScreenshot": {
+    "One": "Take screenshot"
+  },
+  "RemoteScrollAuto": {
+    "One": "Scroll automatically"
+  },
+  "RemoteScrollbar": {
+    "One": "Scrollbars"
+  },
+  "RemoteSendClipboardKeys": {
+    "One": "Send clipboard keystrokes"
+  },
+  "RemoteShowRemoteCursor": {
+    "One": "Show remote cursor"
+  },
+  "RemoteStartRecording": {
+    "One": "Start recording"
+  },
+  "RemoteStopRecording": {
+    "One": "Stop recording"
+  },
+  "RemoteSwapCtrlCmd": {
+    "One": "Swap Control and Command key"
+  },
+  "RemoteSwapMouse": {
+    "One": "Swap left and right mouse button"
+  },
+  "RemoteTextChat": {
+    "One": "Text chat"
+  },
+  "RemoteToolbarHandle": {
+    "One": "Drag to move, click to fold"
+  },
+  "RemoteTrueColor": {
+    "One": "True color (4:4:4)"
+  },
+  "RemoteUacShown": {
+    "One": "A UAC prompt is open on the device."
+  },
+  "RemoteViewMode": {
+    "One": "View mode"
+  },
+  "RemoteVirtualDisplay": {
+    "One": "Virtual display"
+  },
+  "RemoteVirtualAdd": {
+    "One": "Add virtual display"
+  },
+  "RemoteVirtualRemove": {
+    "One": "Remove virtual display"
+  },
+  "RemoteZoomCursor": {
+    "One": "Zoom cursor"
   }
 }
