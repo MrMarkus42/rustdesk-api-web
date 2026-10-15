@@ -1,27 +1,30 @@
-# RustDesk API Web
-# 基于 Vue3 + Element Plus 的后台, 适用于 [RustDesk API](https://github.com/lejianwen/rustdesk-api)
+# RustDesk API – Admin-Oberfläche
 
-<a href="https://github.com/vuejs/vue-next">
-    <img src="https://img.shields.io/badge/vue-^3.2.16-brightgreen.svg" alt="vue3">
-  </a>
-  <a href="https://github.com/element-plus/element-plus">
-    <img src="https://img.shields.io/badge/element--plus-^2.8.2-brightgreen.svg" alt="element-plus">
-  </a>
-  <a href="https://github.com/lejianwen/Gwen-admin/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license">
-  </a>
+Admin-Oberfläche für die [RustDesk-API](https://github.com/MrMarkus42/rustdesk-api), gebaut mit Vue 3 und Element Plus. Sie wird beim Build der API eingebunden und ist dort unter `/_admin/` erreichbar.
 
-# 安装步骤
+Fork von [lejianwen/rustdesk-api-web](https://github.com/lejianwen/rustdesk-api-web), das nicht mehr gepflegt wird.
 
-```shell
-git clone https://github.com/lejianwen/rustdesk-api-web
-cd rustdesk-api-web   
-npm install
+## Änderungen gegenüber lejianwen
 
-// 本地开发
-npm run dev
+- **Deutsche Übersetzung**, die Sprache wird aus dem Browser übernommen; fehlende Übersetzungen fallen auf Englisch zurück statt interne Schlüssel anzuzeigen
+- Aktualisierte Abhängigkeiten (axios, Vue, Vite u. a.), `npm audit` ohne Befund
+- Filterformulare mit automatischer Beschriftungsbreite
 
-// 打包
-npm run build
+## Entwickeln und bauen
 
+```bash
+npm ci
+npm run dev      # Entwicklungsserver, API-Ziel in .env.development (VITE_SERVER_PATH)
+npm run build    # Ergebnis in dist/
 ```
+
+Der Build der API ([MrMarkus42/rustdesk-api](https://github.com/MrMarkus42/rustdesk-api)) verwendet einen fest angegebenen Commit dieses Repositorys. Neue Änderungen hier gelangen erst in die API, wenn dieser Commit dort angehoben wird.
+
+## Übersetzungen
+
+Die Texte liegen in `src/utils/i18n/<sprache>.json`. Neue Schlüssel bitte mindestens in `en.json` und `de.json` ergänzen.
+
+## Herkunft und Lizenz
+
+- Ursprüngliches Projekt: [lejianwen/rustdesk-api-web](https://github.com/lejianwen/rustdesk-api-web) ([Beschreibung Chinesisch](README_ZH.md))
+- Lizenz: [MIT](LICENSE)
