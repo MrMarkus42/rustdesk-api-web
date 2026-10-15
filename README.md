@@ -1,3 +1,5 @@
+**Deutsch** · [English](README.en.md)
+
 # RustDesk API – Admin-Oberfläche
 
 Admin-Oberfläche für die [RustDesk-API](https://github.com/MrMarkus42/rustdesk-api), gebaut mit Vue 3 und Element Plus. Sie wird beim Build der API eingebunden und ist dort unter `/_admin/` erreichbar.
