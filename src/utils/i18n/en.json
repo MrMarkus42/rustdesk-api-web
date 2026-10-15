@@ -531,5 +531,77 @@
   },
   "Remark": {
     "One": "Remark"
+  },
+  "Bind": {
+    "One": "Bind"
+  },
+  "Check your IdP docs, without": {
+    "One": "Check your IdP docs, without"
+  },
+  "Email": {
+    "One": "Email"
+  },
+  "For OIDC login without a password, enter any 4-20 letters": {
+    "One": "For OIDC login without a password, enter any 4-20 letters"
+  },
+  "ID": {
+    "One": "ID"
+  },
+  "Id": {
+    "One": "ID"
+  },
+  "IdP": {
+    "One": "IdP"
+  },
+  "Import": {
+    "One": "Import"
+  },
+  "Information": {
+    "One": "Information"
+  },
+  "InvalidParam": {
+    "One": "Invalid parameter"
+  },
+  "More": {
+    "One": "More"
+  },
+  "MyPeer": {
+    "One": "My Devices"
+  },
+  "OauthBind": {
+    "One": "OAuth Bind"
+  },
+  "OauthLogin": {
+    "One": "OAuth Login"
+  },
+  "Op": {
+    "One": "Provider"
+  },
+  "Optional, default is": {
+    "One": "Optional, default is"
+  },
+  "PkceEnable": {
+    "One": "Enable PKCE"
+  },
+  "PkceMethod": {
+    "One": "PKCE Method"
+  },
+  "Size": {
+    "One": "Size"
+  },
+  "Success": {
+    "One": "Success"
+  },
+  "Token": {
+    "One": "Token"
+  },
+  "View": {
+    "One": "View"
+  },
+  "Your IdP Name": {
+    "One": "Your IdP Name"
+  },
+  "or login in with": {
+    "One": "or log in with"
   }
 }

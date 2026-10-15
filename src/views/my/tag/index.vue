@@ -1,7 +1,7 @@
 <template>
   <div>
     <el-card class="list-query" shadow="hover">
-      <el-form inline label-width="120px">
+      <el-form inline label-width="auto">
         <el-form-item :label="T('AddressBookName')">
           <el-select v-model="listQuery.collection_id" clearable>
             <el-option :value="0" :label="T('MyAddressBook')"></el-option>

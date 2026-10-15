@@ -1,7 +1,7 @@
 <template>
   <div>
     <el-card class="list-query" shadow="hover">
-      <el-form inline label-width="120px">
+      <el-form inline label-width="auto">
         <el-form-item :label="T('Owner')">
           <el-select v-model="listQuery.user_id" clearable @change="changeUser">
             <el-option

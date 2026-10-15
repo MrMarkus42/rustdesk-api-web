@@ -5,6 +5,7 @@ import ko from '@/utils/i18n/ko.json'
 import ru from '@/utils/i18n/ru.json'
 import es from '@/utils/i18n/es.json'
 import zhTW from '@/utils/i18n/zh_TW.json'
+import de from '@/utils/i18n/de.json'
 import { useAppStore } from '@/store/app'
 
 const trans = {
@@ -15,11 +16,13 @@ const trans = {
   'ru': ru,
   'es': es,
   'zh-TW': zhTW,
+  'de': de,
 }
 export function T (key, params, num = 0) {
   const appStore = useAppStore()
   const lang = appStore.setting.lang
-  const tran = trans[lang]?.[key]
+  // missing language or key: fall back to English instead of showing the raw key
+  const tran = trans[lang]?.[key] || trans['en'][key]
   if (!tran) {
     return key
   }
